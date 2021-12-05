@@ -1,0 +1,35 @@
+{
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"jest.autoRun": {
+		"watch": false,
+		"onSave": "test-file"
+	},
+	"search.exclude": {
+		"package-lock.json": true
+	},
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": ["source.addMissingImports", "source.fixAll.eslint"],
+	// Overriding multiple language files isn't available on VScode yet
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[postcss]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"[css]": {
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"stylelint.enable": true,
+	"[dotenv]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
+	},
+	"cSpell.words": ["aaaaaaah"]
+}
