@@ -1,5 +1,6 @@
 import { getToken } from 'next-auth/jwt';
 import { NextRequest, NextResponse } from 'next/server';
+
 import unprotectedRoutes from '../lib/unprotectedRoutes';
 
 export const middleware = async (req: NextRequest) => {
